@@ -1,6 +1,6 @@
 # vue-busy-state-mixin
 
-This is a simple mixin which should help implementing a loading animating indicating that a component is busy doing some work. The implementation is based on Promises. So the example below on how it works.
+This is a simple mixin which should help implementing some king of loading state while a component is doing someting. The implementation is based on Promises. So the example below on how it works.
 
 ## Installation
 
