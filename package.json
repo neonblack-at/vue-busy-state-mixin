@@ -1,0 +1,25 @@
+{
+  "name": "vue-busy-state-mixin",
+  "version": "1.0.0",
+  "description": "Indicates that a component is busy until some work is done",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neonblack-at/vue-busy-state-mixin.git"
+  },
+  "keywords": [
+    "vue.js",
+    "busy",
+    "state",
+    "loading"
+  ],
+  "author": "Ralph Pillichshammer <r.pillichshammer@neonblack.at",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neonblack-at/vue-busy-state-mixin/issues"
+  },
+  "homepage": "https://github.com/neonblack-at/vue-busy-state-mixin#readme"
+}
