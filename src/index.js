@@ -7,12 +7,12 @@ export default {
   methods: {
     /**
      * Set isBusy until work is done and passthrough result.
-     * @param work
+     * @param {Promise} work
      * @returns {Promise<any>}
      */
     do(work) {
-      if (!(work instanceof Promise)) {
-        throw new Error('You need to pass a promise')
+      if (!('then' in work)) {
+        throw new Error('Work is not a Promise!')
       }
 
       this.isBusy = true
