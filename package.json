@@ -1,6 +1,6 @@
 {
   "name": "vue-busy-state-mixin",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Indicates that a component is busy until some work is done",
   "main": "dist/VueBusyStateMixin.common.js",
   "module": "dist/VueBusyStateMixin.esm.js",
