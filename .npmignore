@@ -1,5 +1,9 @@
 .DS_Store
+.babelrc
+.browserslistrc
 .editorconfig
+rollup.config.js
+src
 
 # local env files
 .env.local

@@ -2,9 +2,11 @@
   "name": "vue-busy-state-mixin",
   "version": "1.0.2",
   "description": "Indicates that a component is busy until some work is done",
-  "main": "src/index.js",
+  "main": "dist/VueBusyStateMixin.common.js",
+  "module": "dist/VueBusyStateMixin.esm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist/* && rollup -c"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/neonblack-at/vue-busy-state-mixin/issues"
   },
-  "homepage": "https://github.com/neonblack-at/vue-busy-state-mixin#readme"
+  "homepage": "https://github.com/neonblack-at/vue-busy-state-mixin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.66.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  }
 }
