@@ -4,6 +4,7 @@
 .editorconfig
 rollup.config.js
 src
+yarn.lock
 
 # local env files
 .env.local
