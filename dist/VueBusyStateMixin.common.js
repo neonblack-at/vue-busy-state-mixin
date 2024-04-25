@@ -15,7 +15,7 @@ var index = {
     do: function _do(work) {
       var _this = this;
 
-      if (!('then' in work)) {
+      if (!work || !('then' in work)) {
         throw new Error('Work is not a Promise!');
       }
 
