@@ -11,7 +11,7 @@ export default {
      * @returns {Promise<any>}
      */
     do(work) {
-      if (!('then' in work)) {
+      if (!work || !('then' in work)) {
         throw new Error('Work is not a Promise!')
       }
 
